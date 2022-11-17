@@ -1,0 +1,728 @@
+:root {
+    --grey: #efefef;
+    --black: black;
+    --white: #fff;
+    --backGround: #fafafa;
+    --purple: #d300c5;
+    --yellow: #ffc500;
+    --blue: #0f9bf7
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: var(--backGround);
+    margin-bottom: 10%;
+
+}
+
+.MuiPaper-root .MuiPaper-elevation .MuiPaper-elevation4 .MuiAppBar-root .MuiAppBar-colorPrimary .MuiAppBar-positionStatic .css-hip9hq-MuiPaper-root-MuiAppBar-root {
+    background-color: #fff;
+}
+
+.MuiToolbar-root .MuiToolbar-gutters .MuiToolbar-regular .css-hyum1k-MuiToolbar-root {
+    /* background-color: #fff; */
+}
+
+.MuiToolbar-root,
+.MuiToolbar-gutters,
+.MuiToolbar-regular,
+.css-hyum1k-MuiToolbar-root {
+    background-color: #fff;
+    padding-left: -9px;
+}
+
+.MuiSvgIcon-root .MuiSvgIcon-fontSizeLarge .css-tzssek-MuiSvgIcon-root {
+    color: var(--black);
+}
+
+.icon {
+    color: var(--black);
+    margin-left: 0px;
+}
+
+._ab6- {
+    display: block;
+    position: relative;
+}
+
+.vgAttributes Style {
+    color: rgb(38, 38, 38);
+    fill: rgb(38, 38, 38);
+    height: 24;
+    width: 24;
+}
+
+svg:not(:root) {
+    overflow: hidden;
+    color: var(--black) !important;
+}
+
+.insta {
+    display: block;
+    position: relative;
+    left: 150%;
+}
+
+/* Home */
+.container {
+    height: 100vh;
+    width: 100%;
+    /* background-color: var(--backGround); */
+    /* background-color: #ffc500; */
+    top: -70px;
+}
+
+.main_section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.main_post_section {
+    margin-top: 3%;
+    width: 35%;
+    /* background-color: aqua; */
+}
+
+.stroy {
+    background-color: var(--white);
+    height: 20vh;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    display: flex;
+    margin: 0px auto;
+    overflow: scroll;
+}
+
+.stroy::-webkit-scrollbar {
+    display: none
+}
+
+.stories {
+    /* background-color: aqua; */
+
+    padding: 2px;
+    margin: 6% 1% 1% 1%;
+    margin-top: 30%;
+    border-radius: 50%;
+    width: 4vw;
+    height: 8vh;
+    text-align: center;
+    border: 2px solid #cd486b;
+    margin-left: 15px;
+}
+
+.story_para {
+    /* background-color: #d300c5; */
+    font-size: 1.7vh;
+    margin-left: 35%;
+}
+
+
+
+.profile_section {
+    /* background-color: var(--white); */
+    margin-top: 5%;
+    width: 25%;
+    /* box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, 50pxrgba(27, 31, 35, 0.15) 0px 0px 0px 1px; */
+    border-radius: 10px;
+    margin-left: 3%;
+    height: 55vh;
+    /* position: fixed;
+    left: 60%; */
+
+}
+
+.profile_info {
+    display: flex;
+    justify-content: space-between;
+    /* margin: 10px; */
+    margin-bottom: 5%;
+}
+
+.profile_photo {
+    height: 5vh;
+    border-radius: 50%;
+}
+
+.See_all {
+    font-size: 2vh;
+
+
+}
+
+.profile_data>p {
+    font-size: 2vh;
+    margin-left: -90%;
+}
+
+.profile_data>a {
+    font-size: 2vh;
+    font-weight: bold;
+    color: var(--blue);
+}
+
+/* suggestion work */
+.Suggestion_div {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5%;
+}
+
+.Suggestion_text {
+    color: grey;
+    /* font-weight: bold; */
+    font-family: sans-serif;
+    font-size: 2vh;
+}
+
+
+.suggestion_info {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+
+}
+
+.suggestion_photo {
+    width: 3vw;
+    height: 5vh;
+    border-radius: 50%;
+}
+
+.suggestion_data>p {
+    font-size: 10px;
+    font-size: 2vh;
+
+    /* margin-left: 10px; */
+
+}
+
+.suggestion_follow {
+    /* margin-left: 60%; */
+    font-size: 2vh;
+    color: var(--blue);
+}
+
+.suggestion_data {
+    /* background-color: #d300c5; */
+    margin-left: -40%;
+}
+
+.suggestion_para {
+    color: grey;
+}
+
+/* posts_section */
+.posts_section {
+    background-color: var(--white);
+    margin-top: 5%;
+    height: auto;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    border-radius: 10px;
+
+    /* padding: 10px; */
+}
+
+.container {
+    /* position: fixed;
+    right: 10%; */
+    overflow: scroll;
+    /* margin-top: 25vh; */
+
+}
+
+.container::-webkit-scrollbar {
+    overflow: hidden;
+}
+
+.post_img {
+    margin-top: 5%;
+    width: 100%;
+    height: 100vh;
+    /* border-radius: 10px; */
+}
+
+.post_img:hover {
+    background-color: none;
+    cursor: pointer;
+}
+
+.upper_div {
+    /* background-color: #d300c5; */
+    height: 5vh;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+
+    /* border-bottom: 1px solid grey; */
+}
+
+.profile_text {
+    margin-left: 10px;
+}
+
+.id_name {
+    margin-left: 3%;
+    font-weight: bold;
+    font-size: 2vh;
+}
+
+.pakistan {
+    margin-top: -20%;
+    margin-left: 3%;
+    color: grey;
+    font-size: 10px;
+}
+
+.icon {
+    margin-left: 60%;
+    font-size: 4vh;
+}
+
+.react_div {
+    display: flex;
+    width: 100%;
+    height: 5vh;
+}
+
+
+.react {
+    margin-top: 2%;
+    padding-left: 3%;
+    font-size: 4vh;
+    text-align: center;
+    display: flex;
+
+}
+
+
+.chat {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 3px;
+    font-size: 2vh;
+}
+
+.fav {
+    margin-left: 50%;
+    position: fixed;
+    /* background-color: #d300c5; */
+}
+
+.fav:hover {
+    color: grey;
+    cursor: pointer;
+}
+
+.heart {}
+
+.heart:hover {
+    cursor: pointer;
+    fill: grey;
+}
+
+.send:hover {
+    cursor: pointer;
+    fill: grey;
+}
+
+.chat:hover {
+    cursor: pointer;
+    fill: grey;
+
+}
+
+.likes {
+    margin-top: 4%;
+    margin-left: 3%;
+    font-size: 2vh;
+    font-weight: bold;
+    color: grey;
+}
+
+.comments {
+    margin-top: 2%;
+    margin-left: 3%;
+    font-size: 2vh;
+    color: grey;
+}
+
+.footer_comments {
+    display: none;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.emoji {
+    display: none;
+    height: 4vh;
+    width: 3.2vw;
+    margin-top: 1.7%;
+    margin-left: 2%;
+}
+
+.add {
+    border: none;
+    width: 100%;
+    position: relative;
+    top: 25%;
+    right: 25%;
+    height: 3.5vh;
+    font-size: 2.6vh;
+    display: none;
+}
+
+.add:focus {
+    outline: none;
+}
+
+.add_post {
+    margin-top: 1.5%;
+    margin-right: 3%;
+    color: #2177b1;
+    font-size: 2.5vh;
+    display: none;
+}
+.navbar{
+    display: none1;
+}
+@media only screen and (max-width: 1115px) {
+    .profile_section {
+        display: none;
+    }
+
+    .stroy {
+        width: 50vw;
+        margin-left: -20%;
+        height: auto;
+    }
+
+
+    .posts_section {
+        width: 50vw;
+        margin-left: -20%;
+        height: auto;
+        margin-bottom: 10%;
+    }
+
+    .navbar {
+        height: 10vh;
+        width: 100%;
+        display: none;
+    }
+
+    .main_footer_section {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 893px) {
+
+    .stroy {
+        /* background-color: #e21313; */
+        width: 50vw;
+        margin-left: -20%;
+        height: 20vh;
+    }
+
+    .stories {
+        height: 10vh;
+        width: 8vw;
+    }
+
+    .posts_section {
+        width: 50vw;
+        margin-left: -20%;
+        height: auto;
+        margin-bottom: 10%;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+
+    .MuiPaper-root,
+    .MuiPaper-elevation,
+    .MuiPaper-elevation4,
+    .MuiAppBar-root,
+    .MuiAppBar-colorPrimary .MuiAppBar-positionStatic,
+    .css-hip9hq-MuiPaper-root-MuiAppBar-root {
+        display: none !important;
+    }
+
+    .navbar {
+        background-color: rgb(255, 255, 255);
+        height: 8vh;
+        width: 100%;
+        display: block;
+        display: flex;
+        padding: 5px;
+    }
+
+
+    .img_nav {
+        margin-top: 3%;
+        color: white;
+    }
+
+    .icon_nav {
+        margin-top: 3%;
+
+    }
+
+    .stroy {
+        width: 88vw;
+        height: 15vh;
+        margin-bottom: 10px;
+        margin-left: -100px;
+        box-shadow: none;
+    }
+
+    .stories {
+        height: 5vh;
+        width: 20vw;
+        margin-bottom: -1px;
+        margin-top: 10px;
+        border-radius: 50%;
+
+    }
+
+    .fav {
+        /* display: none; */
+        margin-left: 200%;
+    }
+
+    .icon {
+        /* display: none; */
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid grey;
+    }
+
+    .posts_section {
+        width: 88vw;
+        margin-left: -100px;
+        height: 140vh;
+        /* box-shadow: none; */
+        box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+        border: none;
+    }
+
+    .post_img {
+        margin-top: 15px;
+        height: auto;
+    }
+
+    .upper_div {
+        height: 8vh;
+    }
+
+    .posts_section {
+        height: auto;
+        padding-bottom: 10px;
+    }
+
+    .main_footer_section {
+        display: block;
+        position: fixed;
+        display: flex;
+        justify-content: space-between;
+        bottom: 0px;
+        background-color: white;
+        width: 95%;
+        height: 7vh;
+        padding: 8px;
+        border-top: 1px solid grey;
+        margin-left: 5px;
+
+    }
+
+    .add {
+        background-color: #ffffff;
+        right: 8%;
+        top: 12%;
+    }
+
+    .emoji {
+        fill: rgb(0, 0, 0);
+        height: 25px;
+        width: 25px;
+        margin-left: 2%;
+    }
+
+    .add_post {
+        margin-right: 6%;
+    }
+}
+
+@media only screen and (max-width: 880px) {
+
+
+    .navbar {
+
+        display: none;
+
+    }
+
+    .img_nav {
+        margin-top: 3%;
+        color: white;
+    }
+
+    .icon_nav {
+        margin-top: 3%;
+
+    }
+
+    .stroy {
+        width: 70vW;
+        height: 15vh;
+        margin-bottom: 10px;
+        margin-left: -53%;
+        box-shadow: block;
+        /* background-color: #d300c5; */
+    }
+
+    .stories {
+        height: 10vh;
+        width: 10vw;
+        margin-bottom: -1px;
+        margin-top: 10px;
+        border-radius: 50%;
+        /* background-color: #cd486b; */
+
+    }
+
+    .posts_section {
+        width: 70vW;
+        height: 15vh;
+        margin-bottom: 10px;
+        margin-left: -53%;
+        /* box-shadow: none; */
+        box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+        border: none;
+    }
+
+    .post_img {
+        margin-top: 15px;
+        height: auto;
+    }
+
+    .upper_div {
+        height: 8vh;
+    }
+
+    .posts_section {
+        height: auto;
+        padding-bottom: 10px;
+    }
+
+    .insta {
+        margin-left: -65%;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+
+    .MuiPaper-root,
+    .MuiPaper-elevation,
+    .MuiPaper-elevation4,
+    .MuiAppBar-root,
+    .MuiAppBar-colorPrimary .MuiAppBar-positionStatic,
+    .css-hip9hq-MuiPaper-root-MuiAppBar-root {
+        display: none !important;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid grey;
+        background-color: white;
+    }
+
+    .img_nav {
+        margin-top: 3%;
+        margin-left: 5%;
+        color: white;
+    }
+
+    .icon_nav {
+        margin-top: 3%;
+        margin-right: 5%;
+
+    }
+
+    .main_section {
+        margin-left: 7px;
+    }
+
+    .stroy {
+        width: 88vw;
+        height: 15vh;
+        margin-bottom: 10px;
+        margin-left: -80%;
+        box-shadow: none;
+    }
+
+    .stories {
+        height: 13vh;
+        width: 15vw;
+        margin-bottom: -1px;
+        margin-top: 10px;
+        border-radius: 50%;
+        margin-left: 2%;
+    }
+
+    .stories_div {
+        padding-right: 14px;
+    }
+
+
+    .fav {
+        /* display: none; */
+        margin-left: 200%;
+    }
+
+
+    .posts_section {
+        width: 88vw;
+        margin-left: -80%;
+        height: 140vh;
+        /* box-shadow: none; */
+        box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+        border: none;
+    }
+
+    .post_img {
+        margin-top: 15px;
+        height: auto;
+    }
+
+    .upper_div {
+        height: 8vh;
+    }
+
+    .posts_section {
+        height: auto;
+        padding-bottom: 10px;
+    }
+
+
+}
+
+@media only screen and (max-width: 970px) {
+    .home_icon {
+        background-color: #d300c5;
+        margin-left: -10%;
+        display: none;
+    }
+}
